@@ -118,9 +118,9 @@ export const Listar = () => {
                                     <ButtonWarning type="button">Editar</ButtonWarning>
                                 </Link>{" "}
 
-                                <Link to={"#"}>
-                                    <ButtonDanger type="button" onClick={() => apagarProduto(produto.id)}>Apagar</ButtonDanger>
-                                </Link>{" "}
+                                
+                                <ButtonDanger type="button" onClick={() => apagarProduto(produto.id)}>Apagar</ButtonDanger>
+                                
 
                             </td>
                         </tr>
